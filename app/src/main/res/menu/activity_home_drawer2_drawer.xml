@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tutorial"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/title_tutorial" />
+        <item
+            android:id="@+id/nav_example"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/title_example" />
+        <item
+            android:id="@+id/nav_color"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/title_color" />
+        <item
+            android:id="@+id/nav_opensource"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/title_opensource" />
+        <item
+            android:id="@+id/nav_rateus"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/title_rateus" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_moreApp"
+                android:icon="@drawable/ic_menu_send"
+                android:title="More App" />
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="FeedBack" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_menu_send"
+                android:title="FaceBook" />
+            <item
+                android:id="@+id/nav_Disclaimer"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Disclaimer" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="co.trikita:anvil-sdk15-0.3.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anvil-sdk15-0.3.1.aar/bcc79bb8c0e4727e964a97bd71cbb216/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anvil-sdk15-0.3.1.aar/bcc79bb8c0e4727e964a97bd71cbb216/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

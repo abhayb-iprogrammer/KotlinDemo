@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.abhay.kotlintutorial.AnimationTweenMoveActivity">
+
+    <ImageView
+        android:layout_weight="4"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+
+        android:src="@mipmap/ic_launcher"/>
+    <Button
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idbtnMoveLeft"
+        android:onClick="moveLeft"
+        android:text="MoveLeft"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idbtnMoveRight"
+        android:onClick="moveRight"
+        android:text="MoveRight"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idbtnMoveUp"
+        android:text="MoveUp"
+        tools:ignore="OnClick"
+        android:onClick="moveUp"/>
+    <Button
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idbtnMoveDown"
+        android:text="MoveDown"
+        tools:ignore="OnClick"
+        android:onClick="moveDown"/>
+</LinearLayout>

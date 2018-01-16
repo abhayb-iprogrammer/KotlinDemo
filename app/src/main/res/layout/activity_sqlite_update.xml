@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.abhay.kotlintutorial.SQLiteUpdateActivity">
+    <EditText
+        android:id="@+id/edtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAME" />
+
+    <EditText
+        android:id="@+id/edtSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SURNAME" />
+
+    <EditText
+        android:id="@+id/edtMarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="MARKS" />
+
+
+    <Button
+        android:id="@+id/BtnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFCC65"
+        android:onClick="btnUpdate"
+        android:text="UPDATE"
+        tools:ignore="OnClick" />
+</LinearLayout>
